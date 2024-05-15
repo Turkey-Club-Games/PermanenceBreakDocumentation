@@ -1,0 +1,127 @@
+\doxysection{Static\+Permanence\+Object Class Reference}
+\hypertarget{classStaticPermanenceObject}{}\label{classStaticPermanenceObject}\index{StaticPermanenceObject@{StaticPermanenceObject}}
+Inheritance diagram for Static\+Permanence\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classStaticPermanenceObject}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classStaticPermanenceObject_af908a0284f1997d73b86e27dcfe82a11}\label{classStaticPermanenceObject_af908a0284f1997d73b86e27dcfe82a11} 
+enum {\bfseries Static\+Permanence\+Type} \{ {\bfseries STATIC\+\_\+\+WHEN\+\_\+\+UNSEEN}
+, {\bfseries STATIC\+\_\+\+WHEN\+\_\+\+SEEN}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{classStaticPermanenceObject_a10e76ede232d5ac8bf2a2a0549be82e8}{set\+Visible}} ()
+\item 
+override void \mbox{\hyperlink{classStaticPermanenceObject_a9a6143f1cc45d0a3c100e4c3719022db}{set\+Hidden}} ()
+\item 
+override void \mbox{\hyperlink{classStaticPermanenceObject_afe97d074be9cd7f5395d1fe7eaebe561}{grab}} ()
+\item 
+override void \mbox{\hyperlink{classStaticPermanenceObject_a705fdc58b8f0972ecee731cd68f6ae80}{drop}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classVisibilityObject}{Visibility\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\+Object\+Id} (int id\+Int)
+\item 
+bool {\bfseries increment\+Unseen\+Frames} ()
+\item 
+bool {\bfseries is\+Grabbed} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classStaticPermanenceObject_ab20fe85a54e7a099a0b52190c1a9f7f0}\label{classStaticPermanenceObject_ab20fe85a54e7a099a0b52190c1a9f7f0} 
+Static\+Permanence\+Type {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{classVisibilityObject}{Visibility\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries obj\+Id}
+\item 
+bool {\bfseries visible}
+\item 
+bool {\bfseries phased\+Out}
+\item 
+Renderer {\bfseries main\+Renderer}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classStaticPermanenceObject_a0f751821634af637494013b828113c0e}\label{classStaticPermanenceObject_a0f751821634af637494013b828113c0e} 
+void {\bfseries phase\+Out} ()
+\item 
+\Hypertarget{classStaticPermanenceObject_afb59f9cd44ac4f9dd541605b4da684a7}\label{classStaticPermanenceObject_afb59f9cd44ac4f9dd541605b4da684a7} 
+void {\bfseries phase\+In} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classVisibilityObject}{Visibility\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries Start} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classVisibilityObject}{Visibility\+Object}}}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries grabbed}
+\item 
+Rigidbody {\bfseries rb}
+\item 
+Vector3 {\bfseries phase\+Out\+Velocity}
+\item 
+Vector3 {\bfseries phase\+Out\+Angular\+Velocity}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classStaticPermanenceObject_a705fdc58b8f0972ecee731cd68f6ae80}\label{classStaticPermanenceObject_a705fdc58b8f0972ecee731cd68f6ae80} 
+\index{StaticPermanenceObject@{StaticPermanenceObject}!drop@{drop}}
+\index{drop@{drop}!StaticPermanenceObject@{StaticPermanenceObject}}
+\doxysubsubsection{\texorpdfstring{drop()}{drop()}}
+{\footnotesize\ttfamily override void Static\+Permanence\+Object.\+drop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classVisibilityObject}{Visibility\+Object}}.
+
+\Hypertarget{classStaticPermanenceObject_afe97d074be9cd7f5395d1fe7eaebe561}\label{classStaticPermanenceObject_afe97d074be9cd7f5395d1fe7eaebe561} 
+\index{StaticPermanenceObject@{StaticPermanenceObject}!grab@{grab}}
+\index{grab@{grab}!StaticPermanenceObject@{StaticPermanenceObject}}
+\doxysubsubsection{\texorpdfstring{grab()}{grab()}}
+{\footnotesize\ttfamily override void Static\+Permanence\+Object.\+grab (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classVisibilityObject}{Visibility\+Object}}.
+
+\Hypertarget{classStaticPermanenceObject_a9a6143f1cc45d0a3c100e4c3719022db}\label{classStaticPermanenceObject_a9a6143f1cc45d0a3c100e4c3719022db} 
+\index{StaticPermanenceObject@{StaticPermanenceObject}!setHidden@{setHidden}}
+\index{setHidden@{setHidden}!StaticPermanenceObject@{StaticPermanenceObject}}
+\doxysubsubsection{\texorpdfstring{setHidden()}{setHidden()}}
+{\footnotesize\ttfamily override void Static\+Permanence\+Object.\+set\+Hidden (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classVisibilityObject}{Visibility\+Object}}.
+
+\Hypertarget{classStaticPermanenceObject_a10e76ede232d5ac8bf2a2a0549be82e8}\label{classStaticPermanenceObject_a10e76ede232d5ac8bf2a2a0549be82e8} 
+\index{StaticPermanenceObject@{StaticPermanenceObject}!setVisible@{setVisible}}
+\index{setVisible@{setVisible}!StaticPermanenceObject@{StaticPermanenceObject}}
+\doxysubsubsection{\texorpdfstring{setVisible()}{setVisible()}}
+{\footnotesize\ttfamily override void Static\+Permanence\+Object.\+set\+Visible (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classVisibilityObject}{Visibility\+Object}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Level\+Components/\+Scripts/Static\+Permanence\+Object.\+cs\end{DoxyCompactItemize}

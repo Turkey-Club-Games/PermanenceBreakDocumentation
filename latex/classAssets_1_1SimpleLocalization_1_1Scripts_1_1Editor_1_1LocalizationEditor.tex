@@ -1,0 +1,61 @@
+\doxysection{Assets.\+Simple\+Localization.\+Scripts.\+Editor.\+Localization\+Editor Class Reference}
+\hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor}{}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor}\index{Assets.SimpleLocalization.Scripts.Editor.LocalizationEditor@{Assets.SimpleLocalization.Scripts.Editor.LocalizationEditor}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a8b92cbbeadcdc6b5de07b4c0089977a2}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a8b92cbbeadcdc6b5de07b4c0089977a2} 
+void {\bfseries Load\+Setting} ()
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_aa17ed6baf012137db0bdcfdc3c92e280}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_aa17ed6baf012137db0bdcfdc3c92e280} 
+bool {\bfseries Read\+Sorted} (string sheet\+Name)
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a80b68eb995834ff2aae494ad54a92675}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a80b68eb995834ff2aae494ad54a92675} 
+bool {\bfseries Is\+New\+Key} (string key)
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a98554898a50b90165f7ec8cc4ba31b97}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a98554898a50b90165f7ec8cc4ba31b97} 
+string {\bfseries Delete\+Key} (string key)
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a2a18b64a2c092b980e3f689eef02245b}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a2a18b64a2c092b980e3f689eef02245b} 
+string {\bfseries Add\+Key} ()
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_aef7c24ea671edf87ea23135cb066c1c3}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_aef7c24ea671edf87ea23135cb066c1c3} 
+void {\bfseries Reset\+Sheet} ()
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a94651476847635507567c2cf40866e21}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a94651476847635507567c2cf40866e21} 
+void {\bfseries Get\+All\+Keys} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a06943fff89c82cb0394607382e9c0290}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a06943fff89c82cb0394607382e9c0290} 
+Dictionary$<$ string, Sorted\+Dictionary$<$ string, string $>$ $>$ {\bfseries Sheet\+Dictionary} = new()
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_aba6bc6c4a99b4a7a44c0b3d88d88d726}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_aba6bc6c4a99b4a7a44c0b3d88d88d726} 
+List$<$ long $>$ {\bfseries Sheet\+Ids} = new()
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_abc07b84376517da063d9ddf6ee8099f5}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_abc07b84376517da063d9ddf6ee8099f5} 
+List$<$ string $>$ {\bfseries Sheet\+Names} = new()
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_aa6b407e2100b0f140def2e60cabe1b80}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_aa6b407e2100b0f140def2e60cabe1b80} 
+readonly Dictionary$<$ string, Action\+Type $>$ {\bfseries Keys\+Actions} = new()
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a68c689e80e9fceb8d5ef14f5bff1f90b}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_a68c689e80e9fceb8d5ef14f5bff1f90b} 
+readonly Dictionary$<$ string, string $>$ {\bfseries Keys} = new()
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_accd78d4e5b18df7ec27cc6b0d77096ca}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_accd78d4e5b18df7ec27cc6b0d77096ca} 
+string {\bfseries Current\+Key}
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_ae528efff1f40fcad81bf4df7d07b94d6}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_ae528efff1f40fcad81bf4df7d07b94d6} 
+string {\bfseries Prev\+Key} = "{}"{}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_ab4f589dc15ec5dd2ac4220614e37d7fd}\label{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor_ab4f589dc15ec5dd2ac4220614e37d7fd} 
+static \mbox{\hyperlink{classAssets_1_1SimpleLocalization_1_1Scripts_1_1Editor_1_1LocalizationEditor}{Localization\+Editor}} {\bfseries Instance}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Simple\+Localization/\+Scripts/\+Editor/Localization\+Editor.\+cs\end{DoxyCompactItemize}

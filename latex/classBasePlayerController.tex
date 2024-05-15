@@ -1,0 +1,77 @@
+\doxysection{Base\+Player\+Controller Class Reference}
+\hypertarget{classBasePlayerController}{}\label{classBasePlayerController}\index{BasePlayerController@{BasePlayerController}}
+Inheritance diagram for Base\+Player\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classBasePlayerController}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBasePlayerController_a9a2e649c481e2333e8625093f9437394}\label{classBasePlayerController_a9a2e649c481e2333e8625093f9437394} 
+bool {\bfseries get\+Grounded} ()
+\item 
+\Hypertarget{classBasePlayerController_aebd7d47b394483aa9b53e08d8082b708}\label{classBasePlayerController_aebd7d47b394483aa9b53e08d8082b708} 
+void {\bfseries update\+Sensitivity} (float new\+Sens)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBasePlayerController_a4db0f077c4977126887691d173549ba9}\label{classBasePlayerController_a4db0f077c4977126887691d173549ba9} 
+float {\bfseries camera\+Sensitivity}
+\item 
+\Hypertarget{classBasePlayerController_ac4cac62062ca29735bb191050c719263}\label{classBasePlayerController_ac4cac62062ca29735bb191050c719263} 
+float {\bfseries vertical\+Range}
+\item 
+\Hypertarget{classBasePlayerController_ab32fd5651995ca2bce34fb1c5fd20c9f}\label{classBasePlayerController_ab32fd5651995ca2bce34fb1c5fd20c9f} 
+float {\bfseries ground\+Check\+Distance}
+\item 
+\Hypertarget{classBasePlayerController_ad2a7b37ec8dd208068ece74610e28a92}\label{classBasePlayerController_ad2a7b37ec8dd208068ece74610e28a92} 
+Layer\+Mask {\bfseries ground\+Check\+Layer\+Mask}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBasePlayerController_a6f9fd37e382ab02f42325d87ebc727be}\label{classBasePlayerController_a6f9fd37e382ab02f42325d87ebc727be} 
+bool {\bfseries is\+Grounded} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBasePlayerController_a91c306d3b10c13c9c8aea62dbbb5bdc8}\label{classBasePlayerController_a91c306d3b10c13c9c8aea62dbbb5bdc8} 
+Camera {\bfseries player\+Camera}
+\item 
+\Hypertarget{classBasePlayerController_afd3872fa6eccfb9e5982b44580ba7ca2}\label{classBasePlayerController_afd3872fa6eccfb9e5982b44580ba7ca2} 
+bool {\bfseries grounded}
+\item 
+Vector3\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classBasePlayerController_ae85b8ce9b1b09c657d33701fdf77ac68}{ground\+Check\+Directions}}
+\item 
+\Hypertarget{classBasePlayerController_a044615e3864fa576468af4897e4514de}\label{classBasePlayerController_a044615e3864fa576468af4897e4514de} 
+bool {\bfseries movement\+Enabled} = true
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classBasePlayerController_ae85b8ce9b1b09c657d33701fdf77ac68}\label{classBasePlayerController_ae85b8ce9b1b09c657d33701fdf77ac68} 
+\index{BasePlayerController@{BasePlayerController}!groundCheckDirections@{groundCheckDirections}}
+\index{groundCheckDirections@{groundCheckDirections}!BasePlayerController@{BasePlayerController}}
+\doxysubsubsection{\texorpdfstring{groundCheckDirections}{groundCheckDirections}}
+{\footnotesize\ttfamily Vector3 \mbox{[}$\,$\mbox{]} Base\+Player\+Controller.\+ground\+Check\+Directions\hspace{0.3cm}{\ttfamily [protected]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=\ \{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ Vector3.down,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ Vector3(1,\ -\/1,\ 0).normalized,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ Vector3(0,\ -\/1,\ 1).normalized,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ Vector3(-\/1,\ -\/1,\ 0).normalized,}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keyword}{new}\ Vector3(0,\ -\/1,\ -\/1).normalized,}
+\DoxyCodeLine{\ \ \ \ \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Player/Base\+Player\+Controller.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,96 @@
+\doxysection{One\+Handed\+Player\+Controller Class Reference}
+\hypertarget{classOneHandedPlayerController}{}\label{classOneHandedPlayerController}\index{OneHandedPlayerController@{OneHandedPlayerController}}
+Inheritance diagram for One\+Handed\+Player\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classOneHandedPlayerController}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classOneHandedPlayerController_ab286326c29125dd72ab58be226685831}\label{classOneHandedPlayerController_ab286326c29125dd72ab58be226685831} 
+void {\bfseries set\+Movement\+Enabled} (bool enabled)
+\item 
+\Hypertarget{classOneHandedPlayerController_a58a9bcdd4efc837a43a51593c8aaae2e}\label{classOneHandedPlayerController_a58a9bcdd4efc837a43a51593c8aaae2e} 
+float {\bfseries get\+Current\+Walking\+Speed} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBasePlayerController}{Base\+Player\+Controller}}}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries get\+Grounded} ()
+\item 
+void {\bfseries update\+Sensitivity} (float new\+Sens)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classOneHandedPlayerController_a42fe7c6c579a889c90f3dd656390cd0f}\label{classOneHandedPlayerController_a42fe7c6c579a889c90f3dd656390cd0f} 
+float {\bfseries max\+Walking\+Speed}
+\item 
+\Hypertarget{classOneHandedPlayerController_a4f00bc3a42828f924151da77ed7d8702}\label{classOneHandedPlayerController_a4f00bc3a42828f924151da77ed7d8702} 
+float {\bfseries walking\+Acceleration}
+\item 
+\Hypertarget{classOneHandedPlayerController_aa8607cad2fd86084b4f712d4582cc6d8}\label{classOneHandedPlayerController_aa8607cad2fd86084b4f712d4582cc6d8} 
+float {\bfseries walking\+Deceleration}
+\item 
+\Hypertarget{classOneHandedPlayerController_a75beec17bc1f8d26d96d24eb09659558}\label{classOneHandedPlayerController_a75beec17bc1f8d26d96d24eb09659558} 
+float {\bfseries walking\+Speed\+Change\+Rate}
+\item 
+\Hypertarget{classOneHandedPlayerController_a2dcb7344fc5e11aefac11543f3d34f4d}\label{classOneHandedPlayerController_a2dcb7344fc5e11aefac11543f3d34f4d} 
+float {\bfseries in\+Air\+Decel\+Coef}
+\item 
+\Hypertarget{classOneHandedPlayerController_a253e5bb8cf47daba585944e918c9ab40}\label{classOneHandedPlayerController_a253e5bb8cf47daba585944e918c9ab40} 
+Rect\+Transform {\bfseries speed\+Readout}
+\item 
+\Hypertarget{classOneHandedPlayerController_a1af2bff0003ded4b28353e4602fcdf26}\label{classOneHandedPlayerController_a1af2bff0003ded4b28353e4602fcdf26} 
+Color {\bfseries min\+Color}
+\item 
+\Hypertarget{classOneHandedPlayerController_a177441ae38f13d89e2d4cf3498f6d743}\label{classOneHandedPlayerController_a177441ae38f13d89e2d4cf3498f6d743} 
+Color {\bfseries max\+Color}
+\item 
+\Hypertarget{classOneHandedPlayerController_ad8a38062860017a895af636c6cecfc6c}\label{classOneHandedPlayerController_ad8a38062860017a895af636c6cecfc6c} 
+float {\bfseries jump\+Height}
+\item 
+\Hypertarget{classOneHandedPlayerController_a9d3e13e742cc26f92363fd5add62f2fd}\label{classOneHandedPlayerController_a9d3e13e742cc26f92363fd5add62f2fd} 
+float {\bfseries gravity}
+\item 
+\Hypertarget{classOneHandedPlayerController_a37f2053c4cc23edfdf07205fa4bf442c}\label{classOneHandedPlayerController_a37f2053c4cc23edfdf07205fa4bf442c} 
+float {\bfseries max\+Step\+Height}
+\item 
+\Hypertarget{classOneHandedPlayerController_a3a2287639cf81137b627ed0f31359018}\label{classOneHandedPlayerController_a3a2287639cf81137b627ed0f31359018} 
+float {\bfseries step\+Climb\+Speed}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \mbox{\hyperlink{classBasePlayerController}{Base\+Player\+Controller}}}
+\begin{DoxyCompactItemize}
+\item 
+float {\bfseries camera\+Sensitivity}
+\item 
+float {\bfseries vertical\+Range}
+\item 
+float {\bfseries ground\+Check\+Distance}
+\item 
+Layer\+Mask {\bfseries ground\+Check\+Layer\+Mask}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classBasePlayerController}{Base\+Player\+Controller}}}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries is\+Grounded} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classBasePlayerController}{Base\+Player\+Controller}}}
+\begin{DoxyCompactItemize}
+\item 
+Camera {\bfseries player\+Camera}
+\item 
+bool {\bfseries grounded}
+\item 
+Vector3\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classBasePlayerController_ae85b8ce9b1b09c657d33701fdf77ac68}{ground\+Check\+Directions}}
+\item 
+bool {\bfseries movement\+Enabled} = true
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Player/One\+Handed\+Player\+Controller.\+cs\end{DoxyCompactItemize}
